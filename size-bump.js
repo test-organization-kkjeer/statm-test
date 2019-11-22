@@ -8,7 +8,7 @@ for (const platform in bundleSizeLimits) {
   const bundleSize = fs.statSync(`./bundles/${platform}/ship/${bundleName}`).size / 1024;
 
   if (bundleSizeLimits[platform] <= bundleSize) {
-    const newLimit = Math.ceil(bundleSize / 1024);
+    const newLimit = Math.ceil(bundleSize);
     console.log(`Bumping size limit for ${platform} bundle from ${bundleSizeLimits[platform]} KB to ${newLimit} KB`)
     bundleSizeLimits[platform] = newLimit;
   }
