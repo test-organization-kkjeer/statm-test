@@ -1,5 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`monkey-tests has a basic snapshot test 1`] = `"monkey 234234"`;
+exports[`monkey-tests has a basic snapshot test 1`] = `"monkey 23"`;
 
-exports[`monkey-tests has a basic snapshot test 2`] = `"monkey 234234"`;
+exports[`monkey-tests has a basic snapshot test 2`] = `"monkey 2342"`;
